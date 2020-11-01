@@ -16,7 +16,7 @@ let flickerKeyframes = keyframes([
 
 let flickerAnimation = style([ 
     animationName(flickerKeyframes),
-    animationDuration(1), 
+    animationDuration(10), 
     animationIterationCount(infinite),
     animationTimingFunction(linear)
 ])
@@ -32,8 +32,8 @@ let flickerKeyframes1 = keyframes([
   (70, [opacity(0.)]),
   (80, [opacity(0.3)]),
   (90, [opacity(0.)]),
-  (100, [opacity(0.6), right(px(-2))]),
-]); 
+  (100, [opacity(0.6), right(px(2))]),
+]);  
 // let flickerKeyframes1 = keyframes([
 //   (0, [opacity(0.)]),
 //   (10, [opacity(0.)]), 

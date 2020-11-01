@@ -114,7 +114,7 @@ var flickerKeyframes = Curry._1(Css.keyframes, {
 var flickerAnimation = Curry._1(Css.style, {
       hd: Css.animationName(flickerKeyframes),
       tl: {
-        hd: Css.animationDuration(1),
+        hd: Css.animationDuration(10),
         tl: {
           hd: Css.animationIterationCount(Css.infinite),
           tl: {
@@ -214,7 +214,7 @@ var flickerKeyframes1 = Curry._1(Css.keyframes, {
                             {
                               hd: Css.opacity(0.6),
                               tl: {
-                                hd: Css.right(Css.px(-2)),
+                                hd: Css.right(Css.px(2)),
                                 tl: /* [] */0
                               }
                             }

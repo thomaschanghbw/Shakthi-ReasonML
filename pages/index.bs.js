@@ -6,12 +6,9 @@ var Home$MyBlog = require("../src/components/Home.bs.js");
 var Page$MyBlog = require("../src/components/Page.bs.js");
 
 function Index(Props) {
-  React.useState(function () {
-        return false;
-      });
   return React.createElement(Page$MyBlog.make, {
               children: React.createElement("div", {
-                    className: "flex items-center justify-center h-screen w-full"
+                    className: "flex items-center justify-center h-screen w-full overflow-y-hidden overflow-x-hidden "
                   }, React.createElement(Home$MyBlog.make, {}))
             });
 }

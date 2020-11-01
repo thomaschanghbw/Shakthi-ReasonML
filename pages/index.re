@@ -1,9 +1,7 @@
 [@react.component]
 let make = () => {
-    let (didPassDialog, setDidPassDialog) = React.useState(() => false);
-
     <Page  >
-        <div className="flex items-center justify-center h-screen w-full">
+        <div className="flex items-center justify-center h-screen w-full overflow-y-hidden overflow-x-hidden ">
             <Home/>
         </div>
     </Page>

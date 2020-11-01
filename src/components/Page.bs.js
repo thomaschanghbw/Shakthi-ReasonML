@@ -3,13 +3,16 @@
 
 var React = require("react");
 
-function Hello(Props) {
-  return React.createElement("div", undefined, "Hello thomas");
+function Page(Props) {
+  var children = Props.children;
+  return React.createElement("div", {
+              className: "h-screen w-full bg-black"
+            }, children);
 }
 
-var make = Hello;
+var make = Page;
 
-var $$default = Hello;
+var $$default = Page;
 
 exports.make = make;
 exports.$$default = $$default;

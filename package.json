@@ -13,7 +13,11 @@
     "next": "9.5.5",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "reason-react": "^0.9.1"
+    "react-lottie": "^1.2.3",
+    "react-spring": "^8.0.27",
+    "react-three-fiber": "^5.1.4",
+    "reason-react": "^0.9.1",
+    "three": "^0.122.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

@@ -10,6 +10,17 @@ var Shakthihead = require("src/components/shakthihead").default;
 
 function Home(Props) {
   return React.createElement(React.Fragment, undefined, React.createElement("div", {
+                  className: Curry._1(Css.merge, {
+                        hd: "p-6 w-56 h-8 absolute left-0 text-gray-200 text-5xl",
+                        tl: {
+                          hd: HomeStyles$MyBlog.flickerAnimation,
+                          tl: /* [] */0
+                        }
+                      }),
+                  style: {
+                    fontFamily: "Courier New"
+                  }
+                }, "What have I become?"), React.createElement("div", {
                   className: "flex flex-col mx-auto w-px-500 "
                 }, React.createElement(SiteLogo, {
                       className: "w-64 m-auto"

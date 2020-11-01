@@ -4,9 +4,9 @@ open HomeStyles;
 [@react.component]
 let make = () => {
     <>
-    // <div style=(ReactDOM.Style.make(~fontFamily="Courier New", ())) className=merge(["p-6 w-56 h-8 absolute left-0 text-gray-200 text-5xl", flickerAnimation])>
-    //     {ReasonReact.string("What have I become?")}
-    // </div> 
+    <div style=(ReactDOM.Style.make(~fontFamily="Courier New", ())) className=merge(["p-6 w-56 h-8 absolute left-0 text-gray-200 text-5xl", flickerAnimation])>
+        {ReasonReact.string("What have I become?")}
+    </div> 
 
     <div className="flex flex-col mx-auto w-px-500 "> 
         <Logo.Logo className="w-64 m-auto"/>   

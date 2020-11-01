@@ -8,10 +8,10 @@ let make = () => {
         {ReasonReact.string("What have I become?")}
     </div> 
 
-    <div className="flex flex-col mx-auto w-1/4"> 
+    <div className="flex flex-col mx-auto w-px-500 "> 
         <Logo.Logo className="w-64 m-auto"/>   
          
-        <div className="w-full m-auto relative">   
+        <div className="w-full m-auto relative ">   
             <img src="/vman.png" className="w-full"/> 
             <Shak.Head className=Css.merge(["absolute top-0", Css.style([right(pct(50.)), transform(translateX(pct(50.))) , width(pct(23.)), height(pct(23.))])])/> 
         </div>

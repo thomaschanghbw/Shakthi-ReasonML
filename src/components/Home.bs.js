@@ -21,11 +21,11 @@ function Home(Props) {
                     fontFamily: "Courier New"
                   }
                 }, "What have I become?"), React.createElement("div", {
-                  className: "flex flex-col mx-auto w-1/4"
+                  className: "flex flex-col mx-auto w-px-500 "
                 }, React.createElement(SiteLogo, {
                       className: "w-64 m-auto"
                     }), React.createElement("div", {
-                      className: "w-full m-auto relative"
+                      className: "w-full m-auto relative "
                     }, React.createElement("img", {
                           className: "w-full",
                           src: "/vman.png"
